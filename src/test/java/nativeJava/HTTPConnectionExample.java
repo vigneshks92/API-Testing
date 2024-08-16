@@ -1,4 +1,4 @@
-package JavaNet;
+package nativeJava;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -134,10 +134,10 @@ public class HTTPConnectionExample {
 	
 	public static void main(String[] args) throws IOException {
 		HTTPConnectionExample connectionexample = new HTTPConnectionExample();
-//		connectionexample.getMethodExample();
+		connectionexample.getMethodExample();
 //		connectionexample.postMethodExample();
 //		connectionexample.putMethodExample();
-		connectionexample.deleteMethodExample();
+//		connectionexample.deleteMethodExample();
 		
 	}
 
